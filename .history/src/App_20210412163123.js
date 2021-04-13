@@ -1,15 +1,14 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Navbar.js';
-import Mainpage from './Mainpage.js';
+import Navbar from "./Navbar.js"
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Mainpage />
-
+      <header className="App-header">
+        <Navbar />
+      </header>
     </div>
   );
 }
