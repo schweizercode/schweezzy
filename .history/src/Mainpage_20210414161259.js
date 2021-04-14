@@ -22,7 +22,6 @@ function Mainpage() {
             </div>
 
     );
-
 }
 
 export default Mainpage;
